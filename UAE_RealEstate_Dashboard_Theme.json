@@ -1,0 +1,79 @@
+{
+  "name": "UAE Real Estate Dashboard",
+  "dataColors": [
+    "#2563EB",
+    "#0D9488",
+    "#F59E0B",
+    "#EA580C",
+    "#16A34A",
+    "#1A2E4A",
+    "#60A5FA",
+    "#5EEAD4",
+    "#FCD34D",
+    "#94A3B8"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1A2E4A",
+  "tableAccent": "#2563EB",
+  "good": "#16A34A",
+  "bad": "#EA580C",
+  "neutral": "#F59E0B",
+  "maximum": "#2563EB",
+  "center": "#94A3B8",
+  "minimum": "#F3F4F6",
+  "null": "#CBD5E1",
+  "textClasses": {
+    "callout": {
+      "fontSize": 28,
+      "color": "#1A2E4A"
+    },
+    "title": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1A2E4A"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#595959"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": false }],
+        "border": [{ "show": false }],
+        "title": [{ "fontColor": { "solid": { "color": "#1A2E4A" } }, "fontSize": 12, "bold": true }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#F3F4F6" } } }],
+        "items": [{ "fontColor": { "solid": { "color": "#1A2E4A" } } }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{ "color": { "solid": { "color": "#1A2E4A" } }, "fontSize": 28 }],
+        "categoryLabels": [{ "color": { "solid": { "color": "#595959" } }, "fontSize": 11 }]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "columnHeaders": [{ "backColor": { "solid": { "color": "#1A2E4A" } }, "fontColor": { "solid": { "color": "#FFFFFF" } }, "bold": true }],
+        "values": [{ "backColorPrimary": { "solid": { "color": "#FFFFFF" } }, "backColorSecondary": { "solid": { "color": "#F3F4F6" } } }]
+      }
+    },
+    "pivotTable": {
+      "*": {
+        "columnHeaders": [{ "backColor": { "solid": { "color": "#1A2E4A" } }, "fontColor": { "solid": { "color": "#FFFFFF" } }, "bold": true }],
+        "values": [{ "backColorPrimary": { "solid": { "color": "#FFFFFF" } }, "backColorSecondary": { "solid": { "color": "#F3F4F6" } } }]
+      }
+    },
+    "donutChart": {
+      "*": {
+        "legend": [{ "labelColor": { "solid": { "color": "#1A2E4A" } } }]
+      }
+    }
+  }
+}
